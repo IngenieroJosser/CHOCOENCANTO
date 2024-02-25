@@ -6,10 +6,11 @@ import Presentation from './components/home/Presentation'
 import About from './components/home/About'
 import Places from './components/home/Places'
 import OurServicies from './components/home/OurServicies'
-
+import LoadingImage from './components/home/LoadingImage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <LoadingImage />
     <Header />
     <Presentation />
     <About />
