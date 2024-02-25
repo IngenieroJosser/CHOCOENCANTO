@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    gap: 7em;
+    padding-top: 2.7em;
+    padding-bottom: 1.5em;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    margin-top: -1.97em;
+
+
+    .name_logo {
+        display: flex;
+        gap: 1.3em;
+        margin-left: 12em;
+
+        .themeLogo {
+            color: #55F5A3;
+            border-bottom: 2px solid #000000;
+            
+        }
+    }
+
+    .bannerLinks {
+        display: flex;
+        gap: 4.5em;
+        margin-left: 6em;
+        
+        .link {
+            transition: .2s ease-in all;
+            font-weight: bold;
+            color: #55F5A3;
+
+            &:hover {
+                border-bottom: 1px solid #55F5A3;
+                color: #F6F4EE;
+            }
+        }
+    }
+
+    .mood-dark {
+        margin-left: 9.5em;
+        transition: ease-in all;
+        transform: rotate(-170deg);
+
+        &:hover {
+            border-bottom: 1px solid #9a9393;
+        }
+    }
+}

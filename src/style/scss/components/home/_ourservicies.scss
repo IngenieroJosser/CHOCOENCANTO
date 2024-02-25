@@ -1,0 +1,16 @@
+@import '../../settings/variables';
+
+.our-servicies {
+    margin-left: 28.6em;
+
+    .servicies-title {
+        font-family: $second-font;
+        font-size: 1.7em;
+        
+        .contrast {
+            color: $color-one;
+            font-size: 2em;
+            // text-shadow: 20px -17px 7px rgba(0,0,0,0.78);
+        }
+    }
+}

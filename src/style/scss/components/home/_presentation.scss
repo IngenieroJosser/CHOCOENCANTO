@@ -1,0 +1,49 @@
+@import '../../settings/variables';
+
+.bg-presentation {
+    // box-shadow: 0px 25px 90px 0px rgba(0,0,0,0.7);
+    // border-radius: 0 0 12px 12px;
+
+    // One option
+    // position: relative;
+    // background-image: url('../../../../assets/img/bg-presentation.jpg');
+    // background-size: cover; /* Escalar la imagen para cubrir todo el div */
+    // background-position: center; /* Centrar la imagen */
+    // width: 75vw; /* Ancho de ejemplo para el div */
+    // height: 38vw; /* Altura de ejemplo para el div */
+    // margin-left: 10.2em;
+    // margin-top: 2em;
+    // border-radius: 18px;
+
+
+    // Two option
+    position: relative;
+    background-image: url('../../../../assets/img/bg-presentation.jpg');
+    background-size: cover; /* Escalar la imagen para cubrir todo el div */
+    background-position: center; /* Centrar la imagen */
+    width: 100%; /* Ancho de ejemplo para el div */
+    height: 38vw; /* Altura de ejemplo para el div */
+    margin-left: 0em;
+    margin-top: 0em;
+    // border-radius: 18px;
+
+    .text-presentation {
+        position: absolute;
+        
+        .text-presentation-two {
+            font-size: 5em;
+            margin-top: 3em;
+            margin-left: 1.3em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            .contrast {
+                color: $color-two;
+            }
+        }
+
+        .text-presentation-three {
+            margin-left: 6.7em;
+            margin-top: 10px;
+        }
+    }
+}

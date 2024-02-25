@@ -1,0 +1,36 @@
+@import '../../settings/variables';
+
+.services {
+    padding: 4.6em 6.4em;
+
+    .contrast {
+        font-size: 2em;
+        margin-left: 22rem;
+    }
+    
+    .services-title {
+        color: $color-one;
+        font-family: $second-font;
+        font-size: 1.7em;
+        // color: $defaul
+    }
+}
+
+.all-servicies {
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // padding:  0.4em 4em;
+    // gap: 1em;
+    // margin-left: 17.6%;
+    // margin-top: 4.5em;
+
+    .banner-servicies {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual tamaño */
+        grid-gap: 10px; /* Espacio entre celdas */
+
+        .grid-img {
+            padding: 20px;
+        }
+    }
+}

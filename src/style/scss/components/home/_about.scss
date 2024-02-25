@@ -1,0 +1,22 @@
+@import '../../settings/variables';
+
+.about {
+    padding: 6.6em 6.4em;
+    display: flex;
+    gap: 1em;
+
+    .about-title {
+        font-family: $second-font;
+        font-size: 1.7em;
+    
+        .contrast {
+            color: $color-one;
+            font-size: 2em;
+        }
+    }
+
+    .text-about {
+        width: 66em;
+        padding-top: 1.4em;
+    }
+}

@@ -1,0 +1,19 @@
+*, ::after,::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, a, span, p, a {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+
+// ::selection {
+//     background-color: #55F5A3;
+// }
