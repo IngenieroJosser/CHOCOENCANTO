@@ -10,7 +10,8 @@ import OurServicies from './components/home/OurServicies'
 
 //                    Evento loader 
 //                          ↓
-// import LoadingImage from './components/home/LoadingImage';
+// import LoadingImage from './hooks/LoadingImage';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

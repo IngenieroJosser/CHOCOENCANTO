@@ -12,4 +12,27 @@
             // text-shadow: 20px -17px 7px rgba(0,0,0,0.78);
         }
     }
+
+    .all-servicies {
+        .background-color {
+            background-color: rgba(0, 0, 0, .3);
+
+            
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .our-servicies{
+        &-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            flex-direction: column;  
+            
+            .contrast{
+                font-size: 1.5em;
+            }
+        }     
+    }
 }
