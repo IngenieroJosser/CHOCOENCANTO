@@ -25,7 +25,7 @@ const LoadingImage = () => {
             alignItems: "center",
             justifyContent: "center",
             objectFit: "cover",
-            zIndex: 99
+            zIndex: 99,
         }}
         >
         {isLoading && (
@@ -33,8 +33,8 @@ const LoadingImage = () => {
             src={loadingImage}
             alt="Cargando..."
             style={{
-                backgroundColor: "#000080",
-                backgroundImage: `url(${loadingImagen})`,
+                backgroundColor: "rgba(255,255,255,0.9)",
+                // backgroundImage: `url(${loadingImagen})`,
                 objectFit: "cover",
                 position: "relative",
                 top: "50%",

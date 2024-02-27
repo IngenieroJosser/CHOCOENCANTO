@@ -18,3 +18,5 @@ yarn dev
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+!> **NOTA**: Weex y Vue3 no están listos aún para su uso en producción. Utilice la versión estable de Vue (2) si desea una experiencia deOpen [http://localhost:3000Open [http://localhost:3000Open [http://localhost:3000Open [http://localhost:3000

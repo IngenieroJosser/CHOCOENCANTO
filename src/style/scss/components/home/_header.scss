@@ -45,7 +45,8 @@ header {
         transform: rotate(-170deg);
 
         &:hover {
-            border-bottom: 1px solid #9a9393;
+            transform: scale(1.1);
+            cursor: pointer;
         }
     }
 }
