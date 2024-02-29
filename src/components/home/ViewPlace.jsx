@@ -1,7 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useRef, useState } from 'react';
 import '../../style/scss/components/home/_viewPlace.scss'
-
+import { Navigation } from 'swiper/modules';
 // Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
 import 'swiper/swiper-bundle.css';
 
 const ViewPlace = () =>{
@@ -12,29 +15,12 @@ const ViewPlace = () =>{
 
 return (
     <>
-        
-        <div className="swiper">
-            
-            <Swiper
-                direction="horizontal"
-                loop
-                navigation={{
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                }}
-                pagination={{ el: '.swiper-pagination' }}
-                scrollbar={{ el: '.swiper-scrollbar' }}
-            >
-                <SwiperSlide><img className='servicies-img' src={img1} alt="#" /></SwiperSlide>
-                <SwiperSlide><img className='servicies-img' src={img2} alt="#" /></SwiperSlide>
-                <SwiperSlide><img className='servicies-img' src={img3} alt="#" /></SwiperSlide>
-                <SwiperSlide><img className='servicies-img' src={img4} alt="#" /></SwiperSlide>
-            </Swiper>
-                {/* <div className="swiper-button-prev"></div> */}
-                {/* <div className="swiper-button-next"></div> */}
-                <div className="swiper-pagination"></div>
-                <div className="swiper-scrollbar"></div>
-        </div>
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            <SwiperSlide><img className='servicies-img' src={img1} alt="#" /></SwiperSlide>
+            <SwiperSlide><img className='servicies-img' src={img2} alt="#" /></SwiperSlide>
+            <SwiperSlide><img className='servicies-img' src={img3} alt="#" /></SwiperSlide>
+            <SwiperSlide><img className='servicies-img' src={img4} alt="#" /></SwiperSlide>
+        </Swiper>
     </>
     );
 }
