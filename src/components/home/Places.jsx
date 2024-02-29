@@ -1,6 +1,6 @@
 import '../../style/scss/components/home/_places.scss';
-import CardPlace from './CardPlace'
-import Array from './Array'
+import CardPlace from './places/CardPlace'
+import Array from './places/Array'
 
 
 const Services = ({img, name_servicies, name_place, description}) => {
@@ -10,12 +10,13 @@ const Services = ({img, name_servicies, name_place, description}) => {
                 <h2 className='contrast'>Nuestros <strong className='services-title'>LUGARES</strong></h2>
 
                 <div className='projects-grid-container'>
-                        {Array.map((service) => (
-                        <CardPlace key={service.id}
-                        image={service.img} 
-                        name={service.name_services}
-                        name_place={service.name_place}
-                        description={service.description}
+                        {Array.map((place) => (
+                        <CardPlace 
+                        key={place.id}
+                        image={place.img} 
+                        name={place.name_services}
+                        name_place={place.name_place}
+                        description={place.description}
                         />
                     ))}
                 </div>

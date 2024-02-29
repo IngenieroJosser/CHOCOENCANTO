@@ -1,0 +1,29 @@
+@import '../../settings/variables';
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    margin-left: .5em;
+    
+    .img-services {
+        width: 24em;
+        height: auto;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .text-services {
+        font-size: 17px;
+        padding-bottom: 2em;
+        // font-family: $second-font;
+    }
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:  0.3em 3em;
+    gap: 1em;
+    margin-top: 2em;
+}

@@ -1,9 +1,9 @@
-import place1 from '../../assets/img/place1.avif';
-import place2 from '../../assets/img/place2.jpeg';
-import place3 from '../../assets/img/place3.avif';
-import place4 from '../../assets/img/place4.jpeg';
-import place5 from '../../assets/img/place5.jpeg';
-import place6 from '../../assets/img/place6.jpg';
+import place1 from '../../../assets/img/place1.avif';
+import place2 from '../../../assets/img/place2.jpeg';
+import place3 from '../../../assets/img/place3.avif';
+import place4 from '../../../assets/img/place4.jpeg';
+import place5 from '../../../assets/img/place5.jpeg';
+import place6 from '../../../assets/img/place6.jpg';
 
 const Array = [
     {

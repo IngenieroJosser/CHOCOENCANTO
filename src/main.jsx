@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom/client';
 import Header from './components/home/Header'
 import Presentation from './components/home/Presentation'
 import About from './components/home/About'
+import ViewServices from './components/home/ViewServices';
+import ViewPlace from './components/home/ViewPlace'
 import Places from './components/home/Places'
-import OurServicies from './components/home/OurServicies'
 
 
 //                    Evento loader 
@@ -19,7 +20,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <Presentation />
     <About />
+    <ViewServices />
+    <ViewPlace />
     <Places />
-    <OurServicies />
   </React.StrictMode>,
 )

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../style/scss/components/home/_cardPlace.scss'
+import '../../../style/scss/components/home/_cardPlace.scss'
 // import recommend from '../../assets/icons/i_like_it.png'
 
 const CardPlace = ({image, name_servicies, name_place, description}) => {
@@ -17,7 +17,8 @@ const CardPlace = ({image, name_servicies, name_place, description}) => {
                 <div className="description-places">
                     <h3>{name_place}</h3>
                     <p className='description'>{description}</p>
-                    <button className='read-more'>Saber más</button>
+                    <button className='read-more'>Reservar</button>
+                    {/* <button className='read-more'>Saber más</button> */}
                 </div>
 
                 <div className="react">

@@ -1,0 +1,32 @@
+@import '../../settings/variables';
+
+.servicies-title {
+    margin-left: 18.6em;
+    font-family: $second-font;
+    font-size: 1.7em;
+    
+    .contrast {
+        color: $color-one;
+        font-size: 2em;
+        // text-shadow: 20px -17px 7px rgba(0,0,0,0.78);
+    }
+}
+
+.swiper {
+    object-fit: cover;
+    margin-top: 3em;
+    
+    .servicies-img {
+        margin-top: 2.6em;
+        margin-left: 2.7em;
+        width: 77em;
+        height: 33em;
+        object-fit: cover;
+        border-radius: 15px;
+        cursor: grab;
+
+        &:active {
+            cursor: grabbing;
+        }
+    }
+}
