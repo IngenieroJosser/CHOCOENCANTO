@@ -12,7 +12,7 @@ const Array = [
         description: "Nuquí es un municipio colombiano ubicado en el departamento del Chocó, reconocido por su exuberante naturaleza y sus playas vírgenes bañadas por el Océano Pacífico. Es un destino ideal para los amantes del ecoturismo, la aventura y la tranquilidad.",
         name_servicies: "Guia de senderos turisticos",
         name_place: "Nuqui - Chocó",
-        btn: "Saber más"
+        // btn: "Saber más"
     },
 
     {

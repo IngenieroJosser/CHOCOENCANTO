@@ -31,7 +31,7 @@
 // }
 
 
-//                FLEX
+ //              FLEX
 
 
 .services-flex{
@@ -53,10 +53,51 @@
 
     .services-description {
         .service-name {
-            text-shadow: 29px -14px 4px #000000;
+            // text-shadow: 29px -14px 4px #000000;
             font-family: $second-font;
             border-bottom: 2px solid #465 #f52;
             // width: 16em;
         }
     }
 }
+
+// $primary-color: #55F5A3;
+// $secondary-color: #F6F4EE;
+// $text-color: #000000;
+
+// .servicio {
+//     background-color: $primary-color;
+//     border-radius: 10px;
+//     padding: 20px;
+//     margin: 20px;
+//     text-align: center;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s ease;
+
+//     &:hover {
+//         transform: translateY(-5px);
+//     }
+
+//     h2 {
+//         color: $secondary-color;
+//         margin-bottom: 10px;
+//     }
+
+//     p {
+//         margin-bottom: 20px;
+//     }
+
+//     button {
+//         background-color: $secondary-color;
+//         color: $text-color;
+//         border: none;
+//         padding: 10px 20px;
+//         border-radius: 5px;
+//         cursor: pointer;
+//         transition: background-color 0.3s;
+
+//         &:hover {
+//             background-color: darken($secondary-color, 10%);
+//         }
+//     }
+// }
