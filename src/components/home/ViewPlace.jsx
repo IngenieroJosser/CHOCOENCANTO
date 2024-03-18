@@ -17,9 +17,12 @@ return (
     <>
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
             <SwiperSlide><img className='servicies-img' src={img1} alt="#" /></SwiperSlide>
+            <SwiperSlide><img className='servicies-img' src={img1} alt="#" /></SwiperSlide>
             <SwiperSlide><img className='servicies-img' src={img2} alt="#" /></SwiperSlide>
+            <SwiperSlide><img className='servicies-img' src={img1} alt="#" /></SwiperSlide>
             <SwiperSlide><img className='servicies-img' src={img3} alt="#" /></SwiperSlide>
             <SwiperSlide><img className='servicies-img' src={img4} alt="#" /></SwiperSlide>
+            <SwiperSlide><img className='servicies-img' src={img1} alt="#" /></SwiperSlide>
         </Swiper>
     </>
     );

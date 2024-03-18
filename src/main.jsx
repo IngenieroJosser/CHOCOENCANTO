@@ -7,6 +7,7 @@ import About from './components/home/About'
 import ViewServices from './components/home/ViewServices';
 import ViewPlace from './components/home/ViewPlace'
 import Places from './components/home/Places'
+// import ThemeToggleButton from './components/home/ThemeToggleButton';
 
 
 //                    Evento loader 
@@ -15,7 +16,7 @@ import Places from './components/home/Places'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode >
     {/* <LoadingImage /> */}
     <Header />
     <Presentation />
@@ -23,5 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ViewServices />
     <ViewPlace />
     <Places />
+    {/* < ThemeToggleButton /> */}
   </React.StrictMode>,
 )

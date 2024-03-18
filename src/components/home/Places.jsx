@@ -3,7 +3,7 @@ import CardPlace from './places/CardPlace'
 import Array from './places/Array'
 
 
-const Services = ({img, name_servicies, name_place, description}) => {
+const Places = ({img, name_servicies, name_place, description}) => {
     return (
         <>
             <section className='services'>
@@ -25,4 +25,4 @@ const Services = ({img, name_servicies, name_place, description}) => {
     )
 }
 
-export default Services
+export default Places
