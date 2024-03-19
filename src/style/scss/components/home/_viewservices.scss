@@ -1,0 +1,27 @@
+@import '../../settings/variables';
+
+section {
+    .services-banner {
+        display: flex;
+        gap: 2em;
+        padding-left: 2.4em;
+        margin-top: 1.3em;
+        padding-bottom: 3em;
+
+
+        .services-content {
+            background-color: $color-two;
+            transition: 1s ease-out all;
+            padding: 3em 4em 3em 4em;
+            border-radius: 7px;
+
+            img {
+                margin-left: 6em;
+            }
+
+            &:hover {
+                background-color: $color-two-;
+            }
+        }
+    }
+}
