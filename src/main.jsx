@@ -7,7 +7,7 @@ import About from './components/home/About'
 import ViewServices from './components/home/ViewServices';
 import ViewPlace from './components/home/ViewPlace'
 import Places from './components/home/Places'
-import ContactForm from './components/home/ContactForm';
+// import ContactForm from './components/home/ContactForm';
 import Footer from './components/home/Footer';
 // import ThemeToggleButton from './components/home/ThemeToggleButton';
 
@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ViewServices />
     <ViewPlace />
     <Places />
-    <ContactForm />
+    {/* <ContactForm /> */}
     <Footer />
   </React.StrictMode>,
 )
