@@ -82,6 +82,7 @@
         }
 
         .read-more {
+            position: absolute;
             padding: .7em 1.3em;
             border-radius: 5px;
             margin-top: 1em;
@@ -90,6 +91,7 @@
             font-family: $second-font;
             font-size: 16px;
             transition: .4s ease-in-out all;
+
 
             &:hover {
                 cursor: pointer;

@@ -1,0 +1,27 @@
+header {
+    .back-img {
+        width: 23px;
+        height: 23px;
+        object-fit: cover;
+        cursor: pointer;
+        margin-left: 2em;
+    }
+    
+    .reservas-menu {
+        display: flex;
+        gap: 4.5em;
+        margin-left: 6em;
+
+        .link {
+            transition: .2s ease-in all;
+            font-weight: bold;
+            color: #15191E;
+
+            &:hover {
+                border-bottom: 1px solid #55F5A3;
+                color: #F6F4EE;
+            }
+        }
+    }
+}
+

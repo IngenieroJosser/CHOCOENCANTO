@@ -1,11 +1,19 @@
+//             SETTINGS STYLES
 @import './settings/settings';
 @import './settings/variables';
-@import './themes/dark';
-@import './themes/light';
 
-// @import './components/home/header';
-// @import './components/home/presentation';
-// @import './components/home/about';
-// @import './components/home/places';
-// @import './components/home/ourservicies';
-// @import './components/home/cardPlace';
+
+//             HOME STYLES
+@import './components/home/about';
+@import './components/home/cardPlace';
+@import './components/home/contactForm';
+@import './components/home/footer';
+@import './components/home/header';
+@import './components/home/places';
+@import './components/home/presentation';
+@import './components/home/services';
+@import './components/home/viewPlace';
+@import './components/home/viewServices';
+
+
+//             RESERVAS STYLES

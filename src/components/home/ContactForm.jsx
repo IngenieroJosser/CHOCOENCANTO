@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../style/scss/components/home/_contactform.scss';
+import { NavLink } from 'react-router-dom';
+import back from '../../assets/icons/previous.png';
 
 const ContactForm = () => {
     const [name, setName] = React.useState('');
@@ -8,11 +10,12 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission here
     };
 
     return (
         <div className="cf-encanto">
+            <h2> <NavLink to="/"><img src={back} alt="pagina anterior" /></NavLink> CONTAC<strong>TANOS</strong></h2>            
+
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Nombre:</label>
@@ -42,8 +45,6 @@ const ContactForm = () => {
                 </div>
                 <button type="submit">Enviar mensaje</button>
             </form>
-
-            <h2>CONTAC<strong>TANOS</strong></h2>
         </div>
     );
 };

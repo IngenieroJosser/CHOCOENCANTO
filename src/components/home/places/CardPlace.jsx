@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../../../style/scss/components/home/_cardPlace.scss'
-// import recommend from '../../assets/icons/i_like_it.png'
+import { NavLink } from "react-router-dom";
 
 const CardPlace = ({image, name_servicies, name_place, description}) => {
     const [contador, setContador] = useState(0);
@@ -17,7 +17,7 @@ const CardPlace = ({image, name_servicies, name_place, description}) => {
                 <div className="description-places">
                     <h3>{name_place}</h3>
                     <p className='description'>{description}</p>
-                    <button className='read-more'>Leer más</button>
+                    <NavLink to="/Reservas" className='read-more'>Leer más</NavLink>
                     {/* <button className='read-more'>Saber más</button> */}
                 </div>
 

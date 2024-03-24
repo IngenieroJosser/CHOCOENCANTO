@@ -1,10 +1,11 @@
+import HeaderReserva from "../components/reservas/HeaderReserva"
 
 const Reservas = () => {
-    return (
-        <>
-            
-        </>
-    )
+  return (
+    <>
+      <HeaderReserva />
+    </>
+  )
 }
 
 export default Reservas

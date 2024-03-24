@@ -1,32 +1,30 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
+import {createBrowserRouter, RouterProvider,} from "react-router-dom"
 
-import Header from './components/home/Header'
-import Presentation from './components/home/Presentation'
-import About from './components/home/About'
-import ViewServices from './components/home/ViewServices';
-import ViewPlace from './components/home/ViewPlace'
-import Places from './components/home/Places'
-// import ContactForm from './components/home/ContactForm';
-import Footer from './components/home/Footer';
-// import ThemeToggleButton from './components/home/ThemeToggleButton';
+import Home from './modules/Home';
+import Reservas from './modules/Reservas';
+import ContactForm from './components/home/ContactForm'
 
+const router = createBrowserRouter([
+  {
+    path: "/", 
+    element: <Home />
+  },
 
-//                    Evento loader 
-//                          ↓
-// import LoadingImage from './hooks/LoadingImage';
+  {
+    path: "/Reservas",
+    element: <Reservas />
+  },
 
+  {
+    path: "/Contactanos",
+    element: <ContactForm />
+  },
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode >
-    {/* <LoadingImage /> */}
-    <Header />
-    <Presentation />
-    <About />
-    <ViewServices />
-    <ViewPlace />
-    <Places />
-    {/* <ContactForm /> */}
-    <Footer />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
