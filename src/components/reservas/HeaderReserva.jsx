@@ -11,7 +11,6 @@ const HeaderReserva = () => {
             <nav className='reservas-menu'>
                 <NavLink to="/" className="link">Inicio</NavLink>
                 <NavLink to="/Login" className="link">Login</NavLink>
-                <NavLink to="/" className="link">Testimonio</NavLink>
             </nav>
         </header>
         

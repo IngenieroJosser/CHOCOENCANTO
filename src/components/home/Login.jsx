@@ -25,7 +25,7 @@ const Login = () => {
         // Aquí puedes enviar los datos del formulario a tu servidor o API
         try {
         // Simula una solicitud a la API
-        const response = await fetch('http://localhost:5173/', {
+        const response = await fetch('http://127.0.0.1/', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',

@@ -8,9 +8,10 @@ header {
     }
     
     .reservas-menu {
+        position: absolute;
         display: flex;
-        gap: 4.5em;
-        margin-left: 22em;
+        gap: 7em;
+        margin-left: 35em;
         padding-top: .6em;
 
         .link {
