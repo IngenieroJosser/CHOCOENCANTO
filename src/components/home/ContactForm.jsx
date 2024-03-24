@@ -6,6 +6,7 @@ import back from '../../assets/icons/previous.png';
 const ContactForm = () => {
     const [name, setName] = React.useState('');
     const [email, setEmail] = React.useState('');
+    const [password, setPassword] = React.useState('');
     const [message, setMessage] = React.useState('');
 
     const handleSubmit = (e) => {
@@ -14,11 +15,11 @@ const ContactForm = () => {
 
     return (
         <div className="cf-encanto">
-            <h2> <NavLink to="/"><img src={back} alt="pagina anterior" /></NavLink> CONTAC<strong>TANOS</strong></h2>            
+            <h2> <NavLink to="/"><img src={back} alt="pagina anterior" /></NavLink> LOGIN</h2>            
 
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label htmlFor="name">Nombre:</label>
+                    <label htmlFor="name">Usuario:</label>
                     <input
                         type="text"
                         id="name"
@@ -26,6 +27,7 @@ const ContactForm = () => {
                         onChange={(e) => setName(e.target.value)}
                     />
                 </div>
+
                 <div className="form-group">
                     <label htmlFor="email">Email:</label>
                     <input
@@ -35,6 +37,17 @@ const ContactForm = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
+
+                <div className="form-group">
+                    <label htmlFor="password">Contraseña:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        value={password}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                </div>
+
                 <div className="form-group">
                     <label htmlFor="message">Deja tu mensaje:</label>
                     <textarea

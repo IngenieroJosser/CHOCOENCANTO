@@ -1,7 +1,7 @@
 import '../../style/scss/components/reservas/_headerReserva.scss';
 import back from '../../assets/icons/previous.png';
 import { NavLink } from 'react-router-dom';
-import ContactForm from '../home/ContactForm';
+import Login from '../home/Login';
 
 const HeaderReserva = () => {
     return (
@@ -10,7 +10,7 @@ const HeaderReserva = () => {
 
             <nav className='reservas-menu'>
                 <NavLink to="/" className="link">Inicio</NavLink>
-                <NavLink to="/Contactanos" className="link">Contactos</NavLink>
+                <NavLink to="/Login" className="link">Login</NavLink>
                 <NavLink to="/" className="link">Testimonio</NavLink>
             </nav>
         </header>

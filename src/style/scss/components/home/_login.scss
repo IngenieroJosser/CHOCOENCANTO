@@ -1,0 +1,122 @@
+@import '../../settings/variables';
+
+.login {
+    width: 90%;
+    height: 550px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #15191E;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: $color-one;
+        text-shadow: -7px 22px 3px rgba(255,255,255,0.7);
+        margin-left: 1.2em;
+        font-family: $second-font;
+
+        strong {
+            color: $color-one;
+            border-bottom: 12px solid $color-three;
+            font-size: 1.4em;
+        }
+
+        img {
+            position: absolute;
+            width: 23px;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+            margin-left: -1.3em;
+            margin-top: .4em;
+        }
+    }
+
+    form {
+        label {
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #F6F4EE;
+            font-family: $second-font;
+        }
+        
+        .correo {
+            margin-top: 3em;
+        }
+
+        .acces {
+            margin-top: 2em;
+        }
+        
+        input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #F6F4EE;
+            color: #15191E;
+            font-size: 1.1rem;
+            
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 3px #55F5A3;
+            }
+            
+            &::placeholder {
+                color: #9a9393;
+            }
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #55F5A3;
+            color: #15191E;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1em;
+            font-family: $second-font;
+            
+            &:hover {
+                background-color: #4cd19c;
+            }
+
+            &:disabled {
+                background-color: #d1e3dd;
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    .error {
+        color: #ff5959;
+        font-size: 0.9rem;
+        margin-top: 10px;
+        }
+
+    .success {
+        color: #55F5A3;
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    // .gmail {
+    //     background-color: $color-two;
+    //     padding: .6em 2em;
+    //     border-radius: 5px;
+    //     transition: all 0.3s ease;  
+    //     margin-top: 12px;
+
+    //     &:hover {
+    //         background-color: transparentize($color: #0e0d0d, $amount: 0);
+    //         color: #FFFFFF;
+    //     }
+    // }
+}

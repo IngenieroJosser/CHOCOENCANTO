@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
   display: flex;
   position: relative;
   padding-bottom: 4em;
-  margin-top: 5em;
+  margin-top: 2.5em;
 }
 .cf-encanto .contact-form {
   width: 100%;
