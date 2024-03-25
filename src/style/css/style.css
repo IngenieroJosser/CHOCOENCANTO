@@ -289,7 +289,8 @@ header .mood-dark:hover {
 
 @media screen and (max-width: 480px) {
   header {
-    width: 32.1%;
+    width: 40%;
+    margin-top: -3em;
   }
   header .name_logo {
     margin-left: 1em;
