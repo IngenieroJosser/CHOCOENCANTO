@@ -40,10 +40,10 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
 @media screen and (max-width: 480px) {
   .about {
     position: absolute;
+    margin-top: 3.7em;
   }
   .about .about-title {
     font-size: 1.6em;
-    margin-top: 5.7em;
     margin-left: -3.3em;
   }
   .about .about-title .contrast {
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
   }
   .about .text-about {
     font-size: 13px;
-    margin-top: 16em;
+    margin-top: 6em;
     margin-left: -26.4em;
     width: 348px;
   }
@@ -289,8 +289,8 @@ header .mood-dark:hover {
 
 @media screen and (max-width: 480px) {
   header {
-    width: 40%;
-    margin-top: -3em;
+    width: 34%;
+    margin-top: -5em;
   }
   header .name_logo {
     margin-left: 1em;
@@ -352,8 +352,8 @@ header .mood-dark:hover {
 @media screen and (max-width: 480px) {
   .bg-presentation {
     position: absolute;
-    margin-top: 4em;
-    width: 83.4%;
+    margin-top: 1em;
+    width: 84.7%;
   }
   .bg-presentation .text-presentation .text-presentation-two {
     position: absolute;
