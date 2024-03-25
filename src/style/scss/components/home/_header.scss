@@ -9,7 +9,6 @@ header {
     width: 100%;
     margin-top: -1.97em;
 
-
     .name_logo {
         display: flex;
         gap: 1.3em;
@@ -47,6 +46,22 @@ header {
         &:hover {
             transform: scale(1.1);
             cursor: pointer;
+        }
+    }
+}
+
+//            RESPONSIVE MOVIL
+@media screen and (max-width:480px) {
+    header {
+        width: 32.1%;
+
+        .name_logo {
+            margin-left: 1em;
+        }
+
+        .bannerLinks {
+            // margin-left: -4em;
+            display: none;
         }
     }
 }

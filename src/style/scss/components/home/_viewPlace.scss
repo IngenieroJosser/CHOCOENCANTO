@@ -30,3 +30,17 @@
         }
     }
 }
+
+//            RESPONSIVE MOVIL
+@media screen and (max-width:480px) {
+    .mySwiper {        
+        position: absolute;
+
+        .servicies-img {
+            margin-top: 117em;
+            margin-left: 2em;
+            width: 16em;
+            height: 16em;
+        }
+    }
+}

@@ -10,7 +10,6 @@ const Header = () => {
 
             <nav className='bannerLinks'>
                 <NavLink className='link' to="">Testimonio</NavLink>
-                {/* <a className='link' href="#">Blog</a> */}
                 <NavLink className='link' to="/Reservas">Reservas</NavLink>
                 <NavLink className='link' to="/Login">Login</NavLink>
             </nav>

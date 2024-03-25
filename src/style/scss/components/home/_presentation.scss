@@ -48,3 +48,28 @@
         }
     }
 }
+
+
+//            RESPONSIVE MOVIL
+@media screen and (max-width:480px) {
+    .bg-presentation {
+        position: absolute;
+        margin-top: 4em;
+        width: 83.4%;
+
+        .text-presentation {
+            .text-presentation-two {
+                position: absolute;
+                font-size: 1.4em;
+                margin-top: .4em;
+                margin-left: .7em;
+            }
+
+            .text-presentation-three {
+                margin-top: 6em;
+                font-size: 13px;
+                margin-left: 1em;
+            }
+        }
+    }
+}

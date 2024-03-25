@@ -20,3 +20,27 @@
         padding-top: 1.4em;
     }
 }
+
+//            RESPONSIVE MOVIL
+@media screen and (max-width:480px) {
+    .about {
+        position: absolute;
+
+        .about-title {
+            font-size: 1.6em;
+            margin-top: 5.7em;
+            margin-left: -3.3em;
+
+            .contrast {
+                font-size: 1.3em;
+            }
+        }
+
+        .text-about {
+            font-size: 13px;
+            margin-top: 16em;
+            margin-left: -26.4em;
+            width: 348px;
+        }
+    }
+}
