@@ -107,16 +107,16 @@
         margin-top: 10px;
     }
 
-    // .gmail {
-    //     background-color: $color-two;
-    //     padding: .6em 2em;
-    //     border-radius: 5px;
-    //     transition: all 0.3s ease;  
-    //     margin-top: 12px;
+    .gmail {
+        background-color: $color-two;
+        // padding: .6em 2em;
+        border-radius: 5px;
+        transition: all 0.3s ease;  
+        margin-top: 12px;
 
-    //     &:hover {
-    //         background-color: transparentize($color: #0e0d0d, $amount: 0);
-    //         color: #FFFFFF;
-    //     }
-    // }
+        &:hover {
+            background-color: transparentize($color: #0e0d0d, $amount: 0);
+            color: #FFFFFF;
+        }
+    }
 }

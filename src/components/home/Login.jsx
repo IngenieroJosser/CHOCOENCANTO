@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../style/scss/components/home/_login.scss';
 
 import back from '../../assets/icons/previous.png'
-// import gmail from '../../assets/icons/gmail.png'
+import gmail from '../../assets/icons/gmail.png'
 
 import { NavLink } from 'react-router-dom';
 import Home from '../../modules/Home';
@@ -16,7 +16,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Aquí puedes validar los campos del formulario antes de enviarlo
+        // Aquí puedo validar los campos del formulario antes de enviarlo
         if (!email || !password) {
         setError('Por favor, complete todos los campos');
         return;
@@ -24,7 +24,7 @@ const Login = () => {
 
         // Aquí puedes enviar los datos del formulario a tu servidor o API
         try {
-        // Simula una solicitud a la API
+        // Reakizo una solicitud a la API
         const response = await fetch('http://127.0.0.1/', {
             method: 'POST',
             headers: {
@@ -68,7 +68,7 @@ const Login = () => {
 
                 <button type="submit">Registrate</button>
 
-                {/* <button className='gmail'><img src={gmail} alt="logo de gmail" /> Registrate en Gmail</button> */}
+                <div className='gmail'><img src={gmail} alt="logo de gmail" /><span>Registrate en Gmail</span></div>
             </form>
             {error && <p className="error">{error}</p>}
             {success && <p className="success">{success}</p>}
