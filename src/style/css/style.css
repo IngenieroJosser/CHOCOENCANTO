@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
   .about .text-about {
     font-size: 13px;
     margin-top: 6em;
-    margin-left: -26.4em;
+    margin-left: -24.4em;
     width: 348px;
   }
 }
@@ -353,7 +353,7 @@ header .mood-dark:hover {
   .bg-presentation {
     position: absolute;
     margin-top: 1em;
-    width: 84.7%;
+    width: 100%;
   }
   .bg-presentation .text-presentation .text-presentation-two {
     position: absolute;
