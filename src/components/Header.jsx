@@ -10,12 +10,12 @@ const Header = () => {
                 <NavLink href="#">Caracteristicas</NavLink>
                 <NavLink href="#">Reservas</NavLink>
                 <NavLink href="#">Contactanos</NavLink>
-                <NavLink href="#">Atencion al cliente</NavLink>
+                <NavLink href="#">Atención al cliente</NavLink>
             </nav>
 
             <div className="log-sign">
-                <NavLink className='btn1' href="#">Sign Up</NavLink>
-                <NavLink className='btn2' href="#">Log in</NavLink>
+                <NavLink className='btn1' href="#">Iniciar sesión</NavLink>
+                <NavLink className='btn2' href="#">Registrate</NavLink>
             </div>
         </header>
     )

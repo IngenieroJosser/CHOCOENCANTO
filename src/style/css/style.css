@@ -23,9 +23,12 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
   src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
 }
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   gap: 14em;
   padding: 1em 3.3em;
+  background-color: rgba(242, 242, 242, 0.8);
 }
 header nav {
   display: flex;
@@ -40,7 +43,7 @@ header nav a:hover {
 header .log-sign {
   display: flex;
   gap: 1em;
-  margin-left: 1em;
+  margin-left: -5em;
 }
 header .log-sign .btn1 {
   background-color: #f2f2f2;
@@ -63,6 +66,72 @@ header .log-sign .btn2 {
 header .log-sign .btn2:hover {
   background-color: #15191E;
   color: #ffffff;
+}
+
+.presentation {
+  display: flex;
+  padding-top: 7em;
+}
+.presentation .left-content {
+  padding: 6em 1.7em;
+}
+.presentation .left-content h1 {
+  font-size: 2em;
+  padding-left: 2em;
+  width: 20em;
+  line-height: 1.4em;
+}
+.presentation .left-content p {
+  padding: 0.6em 4em;
+  padding-bottom: 1.7em;
+}
+.presentation .left-content .see-you-soon {
+  background-color: #ffffff;
+  border: 2px solid #baff29;
+  padding: 0.5em 1em;
+  border-radius: 11px;
+  margin-left: 3.8em;
+}
+.presentation .left-content .see-you-soon:hover {
+  background-color: #051923;
+  color: #ffffff;
+  border: 2px solid #051923;
+}
+.presentation .right-content img {
+  width: 33em;
+  height: 28em;
+  object-fit: cover;
+  border-radius: 11px;
+}
+.presentation .right-content p {
+  margin-left: 5.7em;
+  font-weight: bold;
+  border-bottom: 2px solid #051923;
+  width: 21.4em;
+}
+
+.some-places {
+  margin-top: 4em;
+}
+.some-places .banner-img {
+  margin-top: 3em;
+  display: flex;
+  gap: 3em;
+  padding: 4em 3.3em;
+  justify-content: center;
+}
+.some-places .banner-img img {
+  width: 7em;
+  height: 7em;
+  object-fit: cover;
+  border-radius: 11px;
+  margin-top: 1em;
+}
+.some-places hr {
+  position: absolute;
+  width: 7em;
+  margin: 3em 36.9em;
+  border-bottom: 1px solid #baff29;
 }
 
 /*# sourceMappingURL=style.css.map */

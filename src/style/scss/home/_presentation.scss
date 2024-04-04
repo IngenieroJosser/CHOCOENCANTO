@@ -1,0 +1,53 @@
+@import '../settings/variables';
+
+.presentation {
+    display: flex;
+    padding-top: 7em;
+
+    .left-content {
+        padding: 6em 1.7em;
+
+        h1 {
+            font-size: 2em;
+            padding-left: 2em;
+            width: 20em;
+            line-height: 1.4em;
+        }
+
+        p {
+            padding: .6em 4em;
+            padding-bottom: 1.7em;
+        }
+
+        .see-you-soon {
+            background-color: $text-two;
+            border: 2px solid $color-five;
+            padding: .5em 1em;
+            border-radius: 11px;
+            margin-left: 3.8em;
+            
+            &:hover {
+                background-color: $color-six;
+                color: $text-two;
+                border: 2px solid $color-six;
+            }
+        }
+    }
+
+    .right-content {
+        img {
+            width: 33em;
+            height: 28em;
+            object-fit: cover;
+            border-radius: 11px;
+        }
+
+        p {
+            margin-left: 5.7em;
+            font-weight: bold;
+            border-bottom: 2px solid $color-six;
+            // width: 13em;
+            width: 21.4em;
+        }
+    }
+}

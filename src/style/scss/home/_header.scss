@@ -1,9 +1,12 @@
 @import '../settings/variables';
 
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     gap: 14em;
     padding: 1em 3.3em;
+    background-color: $bg-hover;
 
     nav {
         display: flex;
@@ -22,7 +25,7 @@ header {
     .log-sign {
         display: flex;
         gap: 1em;
-        margin-left: 1em;
+        margin-left: -5em;
 
         .btn1 {
             background-color: $bg;
@@ -39,7 +42,6 @@ header {
         }
         
         .btn2 {
-            // border: 1px solid $color-four;
             background-color: $color-five;
             padding: .4em 1em;
             border-radius: 11px;
