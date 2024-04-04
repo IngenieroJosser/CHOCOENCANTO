@@ -1,7 +1,48 @@
+@import '../settings/variables';
+
 .testimony {
     display: flex;
 
     .testimony-box {
+        display: flex;
+        gap: 1em;
+        margin-left: 6.6em;
         
+        .user {
+            display: flex;
+            background-color: $hover;
+            border-right: 3px solid $color-five;
+            border-left: 2px solid $color-five;
+            padding: 1em 4em;
+            padding-bottom: 3em;
+            border-radius: 7px;
+
+            img {
+                width: 3.3em;
+                height: 3.3em;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            .name {
+                width: 7.5em;
+                color: $text-two;
+                font-size: 12px;
+                margin-left: 1em;
+            }
+        }
+
+        span {
+            color: $text-two;
+            font-size: 12px;
+            margin: 3em -14em;
+        }
+
+        .word-user {
+            color: $text-two;
+            font-size: 13px;
+            width: 15em;
+            margin: 4em 2em;
+        }
     }
 }

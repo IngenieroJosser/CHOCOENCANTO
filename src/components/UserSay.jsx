@@ -1,16 +1,21 @@
 import '../style/scss/home/_usersay.scss'
+import ArrayUserSay from './user/ArrayUserSay'
+import CardUserSay from './user/CardUserSay'
 
-const UserSay = ({img, name, username, text, attlr}) => {
+const UserSay = ({img, verificed, name, username, text, attlr}) => {
     return (
         <div className='testimony'>
-            <div className="testimony-box">
-                <div className="user">
-                    <img src={img} alt={attlr} />
-                    <p>{name}</p>
-                </div>
-                <span>{username}</span>
-                <p>{text}</p>
-            </div>
+            {ArrayUserSay.map((testimony) => (
+                    <CardUserSay
+                        key={testimony.id}
+                        img={testimony.img}    
+                        verificed={testimony.verificed}
+                        name={testimony.name}
+                        username={testimony.username}
+                        text={testimony.text}
+                        attlr={testimony.attlr}
+                    />
+                ))}
         </div>
     )
 }
