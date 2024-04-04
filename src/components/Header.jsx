@@ -7,7 +7,7 @@ const Header = () => {
             <h4>@ChocóEncanto</h4>
 
             <nav>
-                <NavLink href="#">Caracteristicas</NavLink>
+                <NavLink href="#">Servicios</NavLink>
                 <NavLink href="#">Reservas</NavLink>
                 <NavLink href="#">Contactanos</NavLink>
                 <NavLink href="#">Atención al cliente</NavLink>

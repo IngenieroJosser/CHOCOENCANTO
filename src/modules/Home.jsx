@@ -1,8 +1,7 @@
 import Header from "../components/Header"
 import Presentation from "../components/Presentation"
 import SomePlaces from "../components/SomePlaces"
-// import ArrayPlaces from "../components/places/ArrayPlaces"
-// import CardPlaces from "../components/places/CardPlaces"
+import Services from "../components/Services"
 
 const Home = () => {
     return (
@@ -10,6 +9,7 @@ const Home = () => {
             <Header />
             <Presentation />
             <SomePlaces />
+            <Services />
         </>
     )
 }
