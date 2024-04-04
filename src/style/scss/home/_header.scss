@@ -1,0 +1,54 @@
+@import '../settings/variables';
+
+header {
+    display: flex;
+    gap: 14em;
+    padding: 1em 3.3em;
+
+    nav {
+        display: flex;
+        gap: 1.3em;
+        transition: all ease-in .2s;
+
+        a {
+            &:hover {
+                font-weight: bold;
+                color: $color-four;
+                border-bottom: 1px solid $color-five;
+            }
+        }
+    }
+    
+    .log-sign {
+        display: flex;
+        gap: 1em;
+        margin-left: 1em;
+
+        .btn1 {
+            background-color: $bg;
+            border: 1px solid $color-four;
+            padding: .4em 1em;
+            border-radius: 11px;
+            transition: all ease-in-out .2s;
+            
+            &:hover {
+                background-color: $color-four;
+                border: 1px solid $color-four;
+                color: $text-two;
+            }
+        }
+        
+        .btn2 {
+            // border: 1px solid $color-four;
+            background-color: $color-five;
+            padding: .4em 1em;
+            border-radius: 11px;
+            transition: all ease-in-out .2s;
+
+            &:hover {
+                background-color: $color-four;
+                color: $text-two;
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "text";
+  src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
+}
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
+  font-family: "text";
+  color: #000000;
+}
+
+@font-face {
+  font-family: "text";
+  src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
+}
+header {
+  display: flex;
+  gap: 14em;
+  padding: 1em 3.3em;
+}
+header nav {
+  display: flex;
+  gap: 1.3em;
+  transition: all ease-in 0.2s;
+}
+header nav a:hover {
+  font-weight: bold;
+  color: #15191E;
+  border-bottom: 1px solid #baff29;
+}
+header .log-sign {
+  display: flex;
+  gap: 1em;
+  margin-left: 1em;
+}
+header .log-sign .btn1 {
+  background-color: #f2f2f2;
+  border: 1px solid #15191E;
+  padding: 0.4em 1em;
+  border-radius: 11px;
+  transition: all ease-in-out 0.2s;
+}
+header .log-sign .btn1:hover {
+  background-color: #15191E;
+  border: 1px solid #15191E;
+  color: #ffffff;
+}
+header .log-sign .btn2 {
+  background-color: #baff29;
+  padding: 0.4em 1em;
+  border-radius: 11px;
+  transition: all ease-in-out 0.2s;
+}
+header .log-sign .btn2:hover {
+  background-color: #15191E;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
