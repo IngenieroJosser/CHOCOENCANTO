@@ -7,15 +7,15 @@ const Header = () => {
             <h4>@ChocóEncanto</h4>
 
             <nav>
-                <NavLink href="#">Servicios</NavLink>
-                <NavLink href="#">Reservas</NavLink>
-                <NavLink href="#">Contactanos</NavLink>
-                <NavLink href="#">Atención al cliente</NavLink>
+                <NavLink to="#">Servicios</NavLink>
+                <NavLink to="/Reservas" exact>Reservas</NavLink>
+                <NavLink to="#">Contactanos</NavLink>
+                <NavLink to="#">Atención al cliente</NavLink>
             </nav>
 
             <div className="log-sign">
-                <NavLink className='btn1' href="#">Iniciar sesión</NavLink>
-                <NavLink className='btn2' href="#">Registrate</NavLink>
+                <NavLink className='btn1' to="/Registro" exact>Iniciar sesión</NavLink>
+                <NavLink className='btn2' to="/Registro" exact>Registrate</NavLink>
             </div>
         </header>
     )

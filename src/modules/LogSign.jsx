@@ -1,5 +1,6 @@
+// import ''
 
-const Reservas = () => {
+const LogSign = () => {
     return (
         <>
             
@@ -7,4 +8,4 @@ const Reservas = () => {
     )
 }
 
-export default Reservas
+export default LogSign

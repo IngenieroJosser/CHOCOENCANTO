@@ -156,4 +156,8 @@ header .log-sign .btn2:hover {
   padding-top: 11px;
 }
 
+.testimony {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */

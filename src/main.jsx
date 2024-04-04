@@ -5,11 +5,23 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom"
 import './style/css/style.css'
 
 import Home from './modules/Home';
+import Reservas from './modules/Reservas';
+import LogSign from './modules/LogSign';
 
 const router = createBrowserRouter([
   {
     path: "/", 
     element: <Home />
+  },
+
+  {
+    path: '/Reservas',
+    element: <Reservas />
+  },
+
+  {
+    path: "/Registro",
+    element: <LogSign />
   }
 ])
 
