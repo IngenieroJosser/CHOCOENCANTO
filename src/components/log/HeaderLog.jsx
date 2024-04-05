@@ -1,24 +1,19 @@
-import '../style/scss/home/_header.scss'
+import '../../style/scss/login/_headerlog.scss'
 import { NavLink } from 'react-router-dom'
 
-const Header = () => {
+const HeaderLog = () => {
     return (
         <header>
             <NavLink to='/'><h4>@ChocóEncanto</h4></NavLink>
 
-            <nav>
+            <nav className='nav-none'>
                 <NavLink to="#">Servicios</NavLink>
                 <NavLink to="/Reservas" exact>Reservas</NavLink>
                 <NavLink to="#">Experiencias</NavLink>
                 <NavLink to="#">Atención al cliente</NavLink>
             </nav>
-
-            <div className="log-sign">
-                <NavLink className='btn1' to="/Registro" exact>Iniciar sesión</NavLink>
-                <NavLink className='btn2' to="/Registro" exact>Registrarse</NavLink>
-            </div>
         </header>
     )
 }
 
-export default Header
+export default HeaderLog
