@@ -1,8 +1,13 @@
 @import '../settings/variables';
 
-#services {
-    padding: 3.5em 0em;
+.services {
     display: flex;
+    justify-content: center;
+}
+
+#services {
+    display: flex;
+    padding: 3.5em 0em;
     gap: 6em;
     // width: 80%;
     justify-content: center;

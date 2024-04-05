@@ -5,7 +5,7 @@ const CardServices = ({img, title, text, attrl}) => {
         <section id='services'>
             <div className="services-content">
                 <img src={img} alt={attrl} />
-                <h3>{title}</h3>
+                <h3>{title}</h3> 
                 <p>{text}</p>
             </div>
         </section>

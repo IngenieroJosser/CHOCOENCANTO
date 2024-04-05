@@ -3,14 +3,14 @@
 
 form {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 14%;
-    background-color: $color-five;
-    border: 3px solid $hover;
+    // background-color: $color-five;
+    // border: 3px solid $hover;
     padding: 2em 17em;
     border-radius: 10px;
     filter: drop-shadow(10px 7px 19px $color-four);
-    border: 3px solid $color-five;
+    // border: 3px solid $color-five;
 
     h2 {
         font-weight: bold;
@@ -59,7 +59,7 @@ form {
         color: $text-two;
         border: 2px solid $color-five;
         padding: 1em 3.5em;
-        margin: 5.4em -21em;
+        margin: 8em -21.7em;
         font-family: 'titleForm';
 
         &:hover {
