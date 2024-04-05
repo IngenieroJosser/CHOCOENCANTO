@@ -63,6 +63,7 @@ form {
         font-family: 'titleForm';
 
         &:hover {
+            cursor: pointer;
             background-color: $color-six;
             border: 3px solid $text-two;
             filter: drop-shadow(10px 7px 10px $hover);
