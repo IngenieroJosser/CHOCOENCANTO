@@ -16,6 +16,11 @@
             object-fit: cover;
             border-radius: 11px;
             margin-top: 1em;
+            opacity: .6;
+
+            &:hover {
+                opacity: 1;
+            }
         }
     }
 
