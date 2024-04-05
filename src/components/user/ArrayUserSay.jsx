@@ -8,7 +8,7 @@ const ArrayUserSay = [
         img: user1,
         name: 'Josser Cordoba',
         username: '@itjosser',
-        text: '¡Hermoso, maravilloso!',
+        text: '¡Increíble experiencia en Quibdó! Los paisajes naturales son impresionantes y la hospitalidad del equipo de turismo fue excepcional. ¡Definitivamente volveré!',
         attlr: 'usuario 1'
     },
 
@@ -17,16 +17,16 @@ const ArrayUserSay = [
         img: user2,
         name: 'Lebrón James',
         username: '@lebronjames',
-        text: '¡Hermoso, maravilloso!',
+        text: 'I cant believe how beautiful Chocó is. Thanks to the tourism company, I was able to enjoy paradisiacal beaches and delicious local dishes. Highly recommended!',
         attlr: 'usuario 2'
     },
 
     {
         id: 3,
         img: user3,
-        name: 'Michael B Jordan',
-        username: '@michaelbjordan',
-        text: 'Incredible, !',
+        name: 'TechVortex',
+        username: '@tvortex',
+        text: 'Mis vacaciones en Quibdó fueron inolvidables gracias a los tours ecológicos ofrecidos por esta compañía. Conocí lugares increíbles y aprendí mucho sobre la cultura local. ¡Una experiencia única!',
         attlr: 'usuario1'
     }
 ]

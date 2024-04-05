@@ -1,21 +1,23 @@
 @import '../settings/variables';
 
 .testimony {
-    display: flex;
+    padding-bottom: 3em;
+    margin-top: 2em;
 
     .testimony-box {
         display: flex;
         gap: 1em;
-        margin-left: 6.6em;
+        margin-left: 8em;
         
         .user {
             display: flex;
             background-color: $hover;
             border-right: 3px solid $color-five;
-            border-left: 2px solid $color-five;
+            border-left: 3px solid $color-five;
             padding: 1em 4em;
             padding-bottom: 3em;
             border-radius: 7px;
+            
 
             img {
                 width: 3.3em;
@@ -30,19 +32,25 @@
                 font-size: 12px;
                 margin-left: 1em;
             }
+
+            .verificed {
+                margin: .2em -.2em;
+            }
         }
 
         span {
+            position: relative;
             color: $text-two;
             font-size: 12px;
-            margin: 3em -14em;
+            margin: 3em -14.5em;
         }
 
         .word-user {
             color: $text-two;
             font-size: 13px;
-            width: 15em;
-            margin: 4em 2em;
+            width: 17em;
+            margin: 5.7em -.5em;
+            padding-left: 1em;
         }
     }
 }
