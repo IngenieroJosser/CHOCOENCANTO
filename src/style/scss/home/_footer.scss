@@ -1,0 +1,72 @@
+@import '../settings/variables';
+
+footer {
+    display: flex;
+    gap: 2em;
+    background-color: rgba($color: #000000, $alpha: .1);
+    padding: 1.2em 3.3em;
+    border-bottom: 3px solid $color-four;
+    border-top: 3px solid rgba($color: $color-four, $alpha: .4);
+
+    span {
+        margin-top: 2em;
+        font-weight: bold;
+        font-size: 1.1em;
+        color: $hover;
+    }
+
+    .social-media {
+        display: flex;
+        gap: 1em;
+        object-fit: cover;
+        margin-top: 2em;
+
+        img {
+            object-fit: cover;
+            transition: all ease-in .2s;
+            
+            &:hover {
+                border-bottom: 1px solid $color-five;
+                object-fit: cover;
+            }
+        }
+    }
+
+    p {
+        font-size: 13px;
+        width: 22em;
+    }
+
+    .all-right {
+        position: absolute;
+        font-size: 13px;
+        margin: 4em 45.5em;
+        width: 15em;
+    }
+
+    .login-footer {
+        position: absolute;
+        font-size: 13px;
+        margin: 0em 65em;
+        width: 5.1em;
+        font-size: 15px;
+
+        &:hover {
+            border-bottom: 2px solid $color-four;
+            color: $hover;
+            font-weight: bold;
+        }
+    }
+
+    .all {
+        position: absolute;
+        font-size: 13px;
+        margin: 4em 68em;
+        width: 18em;
+
+        span {
+            color: $color-four;
+            font-weight: bold;
+        }
+    }
+}

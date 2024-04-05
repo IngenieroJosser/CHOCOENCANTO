@@ -2,7 +2,7 @@ import '../style/scss/home/_usersay.scss'
 import ArrayUserSay from './user/ArrayUserSay'
 import CardUserSay from './user/CardUserSay'
 
-const UserSay = ({img, verificed, name, username, text, attlr}) => {
+const UserSay = ({img, verificed, name, username, text, attlr, link}) => {
     return (
         <div className='testimony'>
             {ArrayUserSay.map((testimony) => (
@@ -14,6 +14,7 @@ const UserSay = ({img, verificed, name, username, text, attlr}) => {
                         username={testimony.username}
                         text={testimony.text}
                         attlr={testimony.attlr}
+                        link={testimony.link}
                     />
                 ))}
         </div>

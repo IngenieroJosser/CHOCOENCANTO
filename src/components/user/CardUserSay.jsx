@@ -1,6 +1,6 @@
 import '../../style/scss/home/_usersay.scss'
 
-const CardUserSay = ({img, name, username, text, attlr}) => {
+const CardUserSay = ({img, name, username, text, attlr, link}) => {
     return (
         <div className='content-user'>
             <div className="testimony-box">
@@ -12,6 +12,7 @@ const CardUserSay = ({img, name, username, text, attlr}) => {
                 <span>{username}</span>
                 <p className='word-user'>{text}</p>
             </div>
+                <a className='link' href={link}>Visitalo</a>
         </div>
     )
 }

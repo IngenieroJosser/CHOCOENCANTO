@@ -1,13 +1,13 @@
 @import '../settings/variables';
 
 .testimony {
-    padding-bottom: 3em;
+    padding-bottom: 7.7em;
     margin-top: 2em;
 
     .testimony-box {
         display: flex;
         gap: 1em;
-        margin-left: 8em;
+        margin-left: 5.7em;
         
         .user {
             display: flex;
@@ -51,6 +51,22 @@
             width: 17em;
             margin: 5.7em -.5em;
             padding-left: 1em;
+        }
+    }
+
+    .link {
+        background-color: $color-five;
+        border: 1px solid $hover;
+        padding: .5em 1em;
+        border-radius: 7px;
+        font-weight: bold;
+        transition: all .2s ease-in;
+        margin: -6em 10em;
+
+        &:hover {
+            background-color: $color-four;
+            color: $text-two;
+            border: 1px solid $color-five;
         }
     }
 }
