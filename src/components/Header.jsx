@@ -7,9 +7,9 @@ const Header = () => {
             <NavLink to='/'><h4>@ChocóEncanto</h4></NavLink>
 
             <nav>
-                <NavLink to="#">Servicios</NavLink>
+                <NavLink to="/">Servicios</NavLink>
                 <NavLink to="/Reservas" exact>Reservas</NavLink>
-                <NavLink to="#">Experiencias</NavLink>
+                <NavLink to="/Experiencias">Experiencias</NavLink>
                 <NavLink to="#">Atención al cliente</NavLink>
             </nav>
 

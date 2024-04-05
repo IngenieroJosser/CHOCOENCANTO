@@ -1,0 +1,71 @@
+@import '../settings/fonts';
+@import '../settings/variables';
+
+form {
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    background-color: $color-five;
+    border: 3px solid $hover;
+    padding: 2em 17em;
+    border-radius: 10px;
+    filter: drop-shadow(10px 7px 19px $color-four);
+    border: 3px solid $color-five;
+
+    h2 {
+        font-weight: bold;
+        font-family: 'titleForm';
+        margin-left: 4.9em;
+    }
+
+    p {
+        width: 20em;
+        font-size: 12px;
+        padding-bottom: 2.7em;
+        margin-left: 9.6em;
+    }
+
+    .password-label {
+        margin-left: 10em;
+    }
+
+    #contrasena {
+        margin-left: -8em;
+    }
+
+    label {
+        font-family: 'titleForm';
+        opacity: .7;
+        margin-left: -6em;
+    }
+
+    input {
+        position: absolute;
+        z-index: 99;
+        background-color: $hover;
+        color: $text-two;
+        border-radius: 4px;
+        margin: 3em -15em;
+        padding: .5em 2em;
+        
+        &:focus {
+            background: $color-four;
+            color: $text-two;
+            font-family: 'text';
+        }
+    }
+
+    #log-registry {
+        color: $text-two;
+        border: 2px solid $color-five;
+        padding: 1em 3.5em;
+        margin: 5.4em -21em;
+        font-family: 'titleForm';
+
+        &:hover {
+            background-color: $color-six;
+            border: 3px solid $text-two;
+            filter: drop-shadow(10px 7px 10px $hover);
+        }
+    }
+}
