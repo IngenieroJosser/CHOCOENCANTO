@@ -8,10 +8,10 @@ const CardExperiences = ({img1, img2, nameplace1, nameplace2, description1, desc
     return (
         <section>
             <div className="banner-social-media">
-                <a href=""><img src={facebook} alt="facebook" /></a>
-                <a href=""><img src={instagram} alt="instagram" /></a>
-                <a href=""><img src={twitter} alt="twitter" /></a>
-                <a href=""><img src={youtube} alt="youtube" /></a>
+                <a href="https://web.facebook.com/allinson.tomm/?_rdc=2&_rdr"><img src={facebook} alt="facebook" /></a>
+                <a href="https://www.instagram.com/itsjosser/"><img src={instagram} alt="instagram" /></a>
+                <a href="https://twitter.com/JosserCordoba"><img src={twitter} alt="twitter" /></a>
+                <a href="https://www.youtube.com/channel/UCxXr04IWXRAnUAdRvLszIFQ"><img src={youtube} alt="youtube" /></a>
             </div>
 
             <div className="experience-place">
