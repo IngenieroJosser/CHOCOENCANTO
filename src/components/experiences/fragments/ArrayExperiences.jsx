@@ -13,7 +13,9 @@ const ArrayExperiences = [
         nameplace1: 'Nuqui - Chocó',
         nameplace2: 'Bagado - Chocó',
         description1: 'Un paraíso natural en el Pacífico colombiano, donde podrás disfrutar de playas vírgenes, avistamiento de ballenas y la magia de la selva tropical. Visita el Parque Nacional Utría y relájate en las playas de Termales.',
-        description2: 'Tierra de oro y cultura, donde podrás conocer las tradiciones afrocolombianas y disfrutar de la deliciosa gastronomía local. Visita el Museo del Oro de Bagadó y participa en el Festival del Río Atrato.'
+        description2: 'Tierra de oro y cultura, donde podrás conocer las tradiciones afrocolombianas y disfrutar de la deliciosa gastronomía local. Visita el Museo del Oro de Bagadó y participa en el Festival del Río Atrato.',
+        link1: 'http://www.nuqui-choco.gov.co/',
+        link2: 'https://bagadochoco.micolombiadigital.gov.co/'
     },
 
     {
@@ -23,7 +25,9 @@ const ArrayExperiences = [
         nameplace1: 'Cetergui - Chocó',
         nameplace2: 'Itsmina - Chocó',
         description1: 'Un municipio rodeado de naturaleza exuberante, donde podrás disfrutar de senderismo, avistamiento de aves y la amabilidad de su gente. No te pierdas la Cascada El Chorro del Indio y el Cerro de Caramanta.',
-        description2: 'Cuna del río San Juan, Istmina te ofrece paisajes impresionantes y actividades ecoturísticas como rafting y pesca deportiva. No te pierdas el Festival del Bunde y la Feria de la Ganadería.'
+        description2: 'Cuna del río San Juan, Istmina te ofrece paisajes impresionantes y actividades ecoturísticas como rafting y pesca deportiva. No te pierdas el Festival del Bunde y la Feria de la Ganadería.',
+        link1: 'https://www.certegui-choco.gov.co/',
+        link2: 'http://www.istmina-choco.gov.co/'
     },
 
     {
@@ -33,7 +37,9 @@ const ArrayExperiences = [
         nameplace1: 'Condoto - Chocó',
         nameplace2: 'Tangui - Chocó',
         description1: 'Un municipio con una rica historia minera y una arquitectura colonial única. Recorre el Parque Nacional San Cipriano y descubre la belleza de la Cascada La Culebra.',
-        description2: 'Una tierra de contrastes, donde la naturaleza exuberante se fusiona con la cultura ancestral. Atrévete a vivir una aventura inolvidable en este paraíso colombiano.'
+        description2: 'Una tierra de contrastes, donde la naturaleza exuberante se fusiona con la cultura ancestral. Atrévete a vivir una aventura inolvidable en este paraíso colombiano.',
+        link1: 'https://www.condoto-choco.gov.co/',
+        link2: 'https://www.acnur.org/fileadmin/Documentos/RefugiadosAmericas/Colombia/2013/TSI_Choco_Tangui_MedioAtrato_septiembre2013.pdf'
     }
 ]
 

@@ -4,7 +4,7 @@ import instagram from '../../../assets/icons/instagram.png'
 import twitter from '../../../assets/icons/twitter.png'
 import youtube from '../../../assets/icons/youtube.png'
 
-const CardExperiences = ({img1, img2, nameplace1, nameplace2, description1, descripcion2}) => {
+const CardExperiences = ({img1, img2, nameplace1, nameplace2, description1, descripcion2, link1, link2}) => {
     return (
         <section>
             <div className="banner-social-media">
@@ -16,13 +16,15 @@ const CardExperiences = ({img1, img2, nameplace1, nameplace2, description1, desc
 
             <div className="experience-place">
                     <div className="place1">
-                        <img src={img1} alt="Lugar1" />
+                        <a href={link1}><img src={img1} alt="Lugar1" /></a>
+                        {/* <a href="http://" target="_blank" rel="noopener noreferrer"></a> */}
                         <h2>{nameplace1}</h2>
                         <p>{description1}</p>
                     </div>
 
                     <div className="place2">
-                        <img src={img2} alt="Lugar2" />
+                        <a href={link2}><img src={img2} alt="Lugar2" /></a>
+                        {/* <a href="http://" target="_blank" rel="noopener noreferrer"></a> */}
                         <h2>{nameplace2}</h2>
                         <p>{descripcion2}</p>
                     </div>
