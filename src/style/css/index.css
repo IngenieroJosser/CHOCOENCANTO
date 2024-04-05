@@ -390,6 +390,7 @@ form #log-registry:hover {
 }
 .header-experiences .nav-experiences .e-link {
   transition: all ease-in 0.2s;
+  font-weight: bold;
 }
 .header-experiences .nav-experiences .e-link:hover {
   font-weight: bold;
