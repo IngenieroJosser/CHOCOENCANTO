@@ -16,6 +16,7 @@ const Footer = () => {
                 <a href="https://twitter.com/JosserCordoba"><img src={twitter} alt="twitter" /></a>
                 <a href="https://www.youtube.com/channel/UCxXr04IWXRAnUAdRvLszIFQ"><img src={youtube} alt="youtube" /></a>
             </div>
+            
             <p>Descubre la belleza natural de Quibdó, Chocó, con nuestros tours ecológicos y gastronómicos. Sumérgete en la cultura local y vive experiencias inolvidables en este paraíso tropical. ¡Reserva ahora y comienza tu aventura con nosotros!</p>
             <p>Calle 29 # 4-50, Barrio El Poblado, 270007 Quibdó, Chocó, Colombia, COLOMBIA</p>
             <NavLink className='login-footer' to='/Registro'>Registrarse</NavLink>
