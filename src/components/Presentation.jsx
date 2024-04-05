@@ -8,7 +8,7 @@ const Presentation = () => {
             <div className="left-content">
                 <h1>Un viaje al corazón del Pacífico colombiano, donde la tradición y la modernidad se encuentran.</h1>
                 <p>Reserva tu viaje hoy y vive la experiencia a lo Chocó Encanto.</p>
-                <NavLink href="#" className='see-you-soon'>Haz tu reserva!</NavLink>
+                <NavLink to="/Reservas" className='see-you-soon'>Haz tu reserva!</NavLink>
             </div>
 
             <div className="right-content">
