@@ -15,7 +15,7 @@ const Header = () => {
 
             <div className="log-sign">
                 <NavLink className='btn1' to="/Registro" exact>Iniciar sesión</NavLink>
-                <NavLink className='btn2' to="/Registro" exact>Registrarse</NavLink>
+                <NavLink className='btn2' to="/ningunapagina" exact>Unete</NavLink>
             </div>
         </header>
     )

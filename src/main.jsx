@@ -8,6 +8,7 @@ import Home from './modules/Home';
 import Reservas from './modules/Reservas';
 import LogSign from './modules/LogSign';
 import Experiences from './components/experiences/Experiences';
+import Error404 from './components/error/Error404-';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
   {
     path: "/Experiencias",
     element: <Experiences />
+  },
+
+  {
+    path: "*",
+    element: <Error404 />
   }
 ])
 

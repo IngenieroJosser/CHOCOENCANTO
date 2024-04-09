@@ -1,0 +1,32 @@
+@import '../settings/variables';
+
+.error-page {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+
+    img {
+        filter: drop-shadow(10px 10px 20px $color-four);
+        width: 15em;
+        height: 15em;
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-left: -.5em;
+        font-size: 5.5em;
+    }
+
+    p {
+        margin-left: 2.9em;
+    }
+
+    .logo {
+        width: 7em;
+        height: 7em;
+        object-fit: cover;
+        margin-left: 4.5em;
+        margin-top: 1em;
+    }
+}
