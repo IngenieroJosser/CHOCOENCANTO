@@ -453,6 +453,14 @@ form #log-registry:hover {
   filter: drop-shadow(10px 7px 20px #9a9393);
 }
 
+@font-face {
+  font-family: "text";
+  src: url("public/Nunito-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "titleForm";
+  src: url("src/assets/fonts/Ichiji-Two.otf") format("truetype");
+}
 .error-page {
   position: absolute;
   left: 40%;
@@ -466,8 +474,9 @@ form #log-registry:hover {
 }
 .error-page h2 {
   font-size: 2em;
-  margin-left: -0.5em;
+  margin-left: -1.7em;
   font-size: 5.5em;
+  font-family: "titleForm";
 }
 .error-page p {
   margin-left: 2.9em;

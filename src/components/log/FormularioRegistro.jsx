@@ -3,28 +3,22 @@ import React, { useState } from 'react';
 const FormularioRegistro = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [errorEmail, setErrorEmail] = useState('');
-  const [errorPassword, setErrorPassword] = useState('');
-  const [responseMessage, setResponseMessage] = useState('');
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
-    setErrorEmail('');
   };
 
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
-    setErrorPassword('');
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validar correo electrónico y contraseña (código de validación aquí)
-
-    // Enviar datos al servidor
+    // Aquí puedes realizar la lógica para enviar los datos al servidor
+    // Por ejemplo, usando Fetch
     try {
-      const response = await fetch('http://localhost/tu_archivo_php.php', {
+      const response = await fetch('http://localhost/phpElectiva2/saveData.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -32,22 +26,34 @@ const FormularioRegistro = () => {
         body: JSON.stringify({ email, password }),
       });
 
-      const data = await response.json();
-      setResponseMessage(data.message);
+      // Aquí puedes manejar la respuesta del servidor
     } catch (error) {
       console.error('Error al enviar los datos:', error);
-      setResponseMessage('Error al enviar los datos al servidor.');
     }
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        {/* Campos de formulario aquí */}
-        <button type="submit">Registrarse</button>
-      </form>
-      {responseMessage && <p>{responseMessage}</p>}
-    </div>
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="email">Correo Electrónico:</label>
+        <input
+          type="email"
+          id="email"
+          value={email}
+          onChange={handleEmailChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="password">Contraseña:</label>
+        <input
+          type="password"
+          id="password"
+          value={password}
+          onChange={handlePasswordChange}
+        />
+      </div>
+      <button type="submit">Registrarse</button>
+    </form>
   );
 };
 

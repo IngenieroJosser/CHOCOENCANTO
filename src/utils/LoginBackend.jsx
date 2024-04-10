@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+// import { NavLink } from 'react-router-dom';
 import '../utils/_loginBackend.scss';
 
 // import back from '../../assets/icons/previous.png'
 // import gmail from '../../assets/icons/gmail.png'
 
-import { NavLink } from 'react-router-dom';
 // import Home from '../../modules/Home';
 
 const LoginBackend = () => {

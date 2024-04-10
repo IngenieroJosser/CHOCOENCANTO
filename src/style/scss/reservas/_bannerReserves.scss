@@ -1,0 +1,40 @@
+@import '../settings/variables';
+@import '../settings/fonts';
+
+.banner-reserves {
+    display: flex;
+    // gap: 2em;
+    flex-direction: column;
+    padding-left: 2em;
+    
+    img {
+        width: 17em;
+        height: 17em;     
+    }
+}
+
+.content-banner {
+    padding-top: 2em;
+    display: flex;
+    gap: 2em;
+    background-color: $color-seven;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    width: 40em;
+    margin-top: 9em;
+
+    p {
+        width: 10em;
+    }
+
+    span {
+        position: absolute;
+        // background-color: $color-five;
+        padding: .9em 2em;
+        border-radius: 7px;
+        font-weight: bold;
+        margin-top: .3em;
+        margin-left: -1.7em;
+        font-family: 'titleForm';
+    }
+}
