@@ -1,8 +1,12 @@
 import '../../../style/scss/login/_createaccount.scss'
+import HeaderLog from '../HeaderLog'
 
 const CreateAccount = () => {
     return (
-        <form>
+        <>
+            <HeaderLog />
+            
+            <form>
             <h2 className='c-a'>Únete a disfrutar</h2>
             <p className='c-a-'>Únete a disfrutar ingresando tu nombre, dirección de correo electrónico y contraseña para disfrutar.</p>
             
@@ -25,6 +29,7 @@ const CreateAccount = () => {
 
             <input type="submit" value="Unete a explorar" id='i--registry' />
         </form>
+        </>
     )
 }
 
