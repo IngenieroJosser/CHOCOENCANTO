@@ -17,24 +17,27 @@
     padding-top: 2em;
     display: flex;
     gap: 2em;
-    background-color: $color-seven;
+    // background-color: $color-four;
     padding-left: 2em;
     padding-bottom: 2em;
-    width: 40em;
+    width: 60em;
     margin-top: 9em;
+    
 
     p {
-        width: 10em;
+        width: 20em;
+        padding-top: 1em;
     }
 
     span {
         position: absolute;
-        // background-color: $color-five;
+        background-color: $color-five;
         padding: .9em 2em;
         border-radius: 7px;
         font-weight: bold;
         margin-top: .3em;
         margin-left: -1.7em;
         font-family: 'titleForm';
+        z-index: -1;
     }
 }
