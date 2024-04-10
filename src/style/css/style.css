@@ -1,6 +1,6 @@
 @font-face {
   font-family: "text";
-  src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
+  src: url("public/Nunito-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "titleForm";
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
 
 @font-face {
   font-family: "text";
-  src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
+  src: url("public/Nunito-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "titleForm";
@@ -298,7 +298,7 @@ footer .all span {
 
 @font-face {
   font-family: "text";
-  src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
+  src: url("public/Nunito-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "titleForm";
@@ -368,7 +368,7 @@ form #log-registry:hover {
 
 @font-face {
   font-family: "text";
-  src: url("src/assets/fonts/Nunito-Light.ttf") format("truetype");
+  src: url("public/Nunito-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "titleForm";
@@ -455,12 +455,29 @@ form #log-registry:hover {
 
 .error-page {
   position: absolute;
+  left: 40%;
+  top: 30%;
 }
 .error-page img {
-  filter: drop-shadow(10px 10px 20px #baff29);
-  width: 17em;
-  height: 17em;
+  filter: drop-shadow(10px 10px 20px #15191E);
+  width: 15em;
+  height: 15em;
   object-fit: cover;
+}
+.error-page h2 {
+  font-size: 2em;
+  margin-left: -0.5em;
+  font-size: 5.5em;
+}
+.error-page p {
+  margin-left: 2.9em;
+}
+.error-page .logo {
+  width: 7em;
+  height: 7em;
+  object-fit: cover;
+  margin-left: 4.5em;
+  margin-top: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
