@@ -9,6 +9,7 @@ import Reservas from './modules/Reservas';
 import LogSign from './modules/LogSign';
 import Experiences from './components/experiences/Experiences';
 import Error404 from './components/error/Error404-';
+import CreateAccount from './components/log/module/CreateAccount';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: "/Registro",
     element: <LogSign />
+  },
+
+  {
+    path: "/Unete",
+    element: <CreateAccount />
   },
 
   {

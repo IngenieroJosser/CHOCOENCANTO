@@ -12,7 +12,7 @@ const Registry = () => {
             <label className='password-label' htmlFor="">Contraseña</label>
             <input type="password" name="contrasena" id="contrasena" />
 
-            <input type="submit" value="Registrarse" id='log-registry' />
+            <input type="submit" value="Iniciar sesión" id='log-registry' />
         </form>
 
     )
