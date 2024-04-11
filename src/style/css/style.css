@@ -554,4 +554,22 @@ form #i--registry:hover {
   margin-top: 0.2em;
 }
 
+aside {
+  position: fixed;
+  height: 100%;
+  display: flex;
+  gap: 3em;
+  flex-direction: column;
+  position: absolute;
+  padding: 7.7em 3em;
+}
+aside img {
+  width: 24px;
+  height: 24px;
+  transition: all 0.2s ease-in;
+}
+aside img:hover {
+  filter: drop-shadow(20px 10px 20px #07190f);
+}
+
 /*# sourceMappingURL=style.css.map */
