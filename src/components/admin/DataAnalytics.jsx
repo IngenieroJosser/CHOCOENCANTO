@@ -34,7 +34,7 @@ const DataAnalytics = () => {
                     
                     <div className="content--admin">
                         <img src={user} alt="usuario" />
-                        <p>Usuario de viajeros</p>
+                        <p>Viajeros turistas</p>
 
                         <div className="content">
                             <p className='count--content'>16, 703</p>
