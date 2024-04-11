@@ -21,7 +21,7 @@ const Footer = () => {
             <p>Calle 29 # 4-50, Barrio El Poblado, 270007 Quibdó, Chocó, Colombia, COLOMBIA</p>
             <NavLink className='login-footer' to='/Registro'>Registrarse</NavLink>
             <span className='all-right'> &copy; 2024 Todos los derechos reservados</span>
-            <span className='all'> #Desarrollado por <span>Josser Cordoba Rivas</span></span>
+            <span className='all'> &copy;Desarrollado por <span>Josser Cordoba Rivas</span></span>
         </footer>
     )
 }
