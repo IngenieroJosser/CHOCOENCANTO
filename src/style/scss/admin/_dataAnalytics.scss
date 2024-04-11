@@ -1,4 +1,5 @@
 @import '../settings/variables';
+@import '../settings/fonts';
 
 .container--admin {
     display: flex;
@@ -18,15 +19,72 @@
     
         .banner--admin {
             display: flex;
-            gap: 5.14em;
+            gap: 4.9em;
             position: absolute;
-            margin: 7em 10em;
+            margin: 7em 10.2em;
     
             .content--admin {
+                display: flex;
                 background-color: $color-four;
                 width: 210px;
                 height: 117px;
                 border-radius: 7px;
+
+                img {
+                    margin: 1em 1em;
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    margin-top: 1em;
+                    color: $text-two;
+                    font-weight: bold;
+                }
+
+                .content {
+                    position: absolute;
+                    font-size: 12px;
+                    margin: 4.4em 2em;
+
+                    h6 {
+                        color: $color-five;
+                        font-weight: lighter;
+                    }
+                }
+            }
+
+
+            .banner-a-2 {
+                display: flex;
+                width: 239px;
+                height: 117px;
+                background-color: $color-four;
+                border-radius: 7px;
+                margin-left: -1.2em;
+
+                img {
+                    margin: 1em 1em;
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    margin-top: 1em;
+                    color: $text-two;
+                    font-weight: bold;
+                }
+
+                .content {
+                    position: absolute;
+                    font-size: 12px;
+                    margin: 4.4em 2em;
+
+                    h6 {
+                        color: $color-five;
+                        font-weight: lighter;
+                    }
+                }
             }
         }
     
@@ -37,10 +95,32 @@
             border-radius: 7px;
             position: absolute;
             margin: 15em 10.2em;
+
+            p {
+                color: $text-two;
+                font-weight: bold;
+                margin: 2em 4em;
+            }
+
+            .banner-admin {
+                display: flex;
+                gap: 2em;
+
+                .content--admoin {
+                    display: flex;
+                    margin-top: -1.4em;
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            
     
             img {
                 position: absolute;
-                top: 32%;
+                top: 43%;
                 left: 5.5%;
             }
         }
@@ -48,11 +128,28 @@
 
     .data-analytics-grafic {
         margin: 15em 63em;
-        background-color: $color-four;
-        border-radius: 10px;
+        background-color: $color-five;
+        height: 22.9em;
+        border-radius: 7px;
+
+        span {
+            position: absolute;
+            margin: 4em 3em;
+            font-size: 15px;
+            font-weight: bold;
+        }
         
         svg {
+            margin-top: 5.9em;
             animation: spin 7s linear infinite;
+        }
+
+        p {
+            position: absolute;
+            font-weight: bold;
+            font-size: 2em;
+            margin: -4.4em 3.5em;
+            font-family: 'titleForm';
         }
     }
 }

@@ -572,21 +572,76 @@ aside img:hover {
   filter: drop-shadow(20px 10px 20px #07190f);
 }
 
+@font-face {
+  font-family: "text";
+  src: url("public/Nunito-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "titleForm";
+  src: url("src/assets/fonts/Ichiji-Two.otf") format("truetype");
+}
 .container--admin {
   display: flex;
   z-index: -1;
 }
 .container--admin .data-analytics .banner--admin {
   display: flex;
-  gap: 5.14em;
+  gap: 4.9em;
   position: absolute;
-  margin: 7em 10em;
+  margin: 7em 10.2em;
 }
 .container--admin .data-analytics .banner--admin .content--admin {
+  display: flex;
   background-color: #15191E;
   width: 210px;
   height: 117px;
   border-radius: 7px;
+}
+.container--admin .data-analytics .banner--admin .content--admin img {
+  margin: 1em 1em;
+  width: 24px;
+  height: 24px;
+}
+.container--admin .data-analytics .banner--admin .content--admin p {
+  margin-top: 1em;
+  color: #ffffff;
+  font-weight: bold;
+}
+.container--admin .data-analytics .banner--admin .content--admin .content {
+  position: absolute;
+  font-size: 12px;
+  margin: 4.4em 2em;
+}
+.container--admin .data-analytics .banner--admin .content--admin .content h6 {
+  color: #baff29;
+  font-weight: lighter;
+}
+.container--admin .data-analytics .banner--admin .banner-a-2 {
+  display: flex;
+  width: 239px;
+  height: 117px;
+  background-color: #15191E;
+  border-radius: 7px;
+  margin-left: -1.2em;
+}
+.container--admin .data-analytics .banner--admin .banner-a-2 img {
+  margin: 1em 1em;
+  width: 24px;
+  height: 24px;
+}
+.container--admin .data-analytics .banner--admin .banner-a-2 p {
+  margin-top: 1em;
+  color: #ffffff;
+  font-weight: bold;
+}
+.container--admin .data-analytics .banner--admin .banner-a-2 .content {
+  position: absolute;
+  font-size: 12px;
+  margin: 4.4em 2em;
+}
+.container--admin .data-analytics .banner--admin .banner-a-2 .content h6 {
+  color: #baff29;
+  font-weight: lighter;
 }
 .container--admin .data-analytics .banner-content {
   background-color: #15191E;
@@ -596,18 +651,49 @@ aside img:hover {
   position: absolute;
   margin: 15em 10.2em;
 }
+.container--admin .data-analytics .banner-content p {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 2em 4em;
+}
+.container--admin .data-analytics .banner-content .banner-admin {
+  display: flex;
+  gap: 2em;
+}
+.container--admin .data-analytics .banner-content .banner-admin .content--admoin {
+  display: flex;
+  margin-top: -1.4em;
+}
+.container--admin .data-analytics .banner-content .banner-admin .content--admoin p {
+  font-size: 13px;
+}
 .container--admin .data-analytics .banner-content img {
   position: absolute;
-  top: 32%;
+  top: 43%;
   left: 5.5%;
 }
 .container--admin .data-analytics-grafic {
   margin: 15em 63em;
-  background-color: #15191E;
-  border-radius: 10px;
+  background-color: #baff29;
+  height: 22.9em;
+  border-radius: 7px;
+}
+.container--admin .data-analytics-grafic span {
+  position: absolute;
+  margin: 4em 3em;
+  font-size: 15px;
+  font-weight: bold;
 }
 .container--admin .data-analytics-grafic svg {
+  margin-top: 5.9em;
   animation: spin 7s linear infinite;
+}
+.container--admin .data-analytics-grafic p {
+  position: absolute;
+  font-weight: bold;
+  font-size: 2em;
+  margin: -4.4em 3.5em;
+  font-family: "titleForm";
 }
 
 @keyframes spin {
