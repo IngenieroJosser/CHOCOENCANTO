@@ -16,3 +16,9 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
     font-family: 'text';
     color: $text;
 }
+
+::selection {
+    background-color: $color-six;
+    color: $text-two;
+
+}

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Header = () => {
     return (
         <header>
-            <NavLink to='/'><h4>@ChocóEncanto</h4></NavLink>
+            <NavLink to='/Admin'><h4>@ChocóEncanto</h4></NavLink> {/* Aqui va / --> Pongo el de admin para prueba*/}
 
             <nav>
                 <NavLink to="/">Servicios</NavLink>

@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
   color: #000000;
 }
 
+::selection {
+  background-color: #051923;
+  color: #ffffff;
+}
+
 @font-face {
   font-family: "text";
   src: url("public/Nunito-Light.ttf") format("truetype");
@@ -521,6 +526,32 @@ form #i--registry:hover {
   object-fit: cover;
   margin-left: 4.5em;
   margin-top: 1em;
+}
+
+.header--dashboard {
+  display: flex;
+  gap: 60.5em;
+}
+.header--dashboard .profile {
+  display: flex;
+  gap: 1em;
+}
+.header--dashboard .profile span {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+.header--dashboard .profile p {
+  font-size: 12px;
+  margin-left: -1em;
+}
+.header--dashboard .profile img {
+  background-color: #15191E;
+  width: 2em;
+  height: 2em;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 0.2em;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,6 +10,7 @@ import LogSign from './modules/LogSign';
 import Experiences from './components/experiences/Experiences';
 import Error404 from './components/error/Error404-';
 import CreateAccount from './components/log/module/CreateAccount';
+import Dashboard from './modules/Dashboard';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
   {
     path: "/Experiencias",
     element: <Experiences />
+  },
+
+  {
+    path: '/Admin',
+    element: <Dashboard />
   },
 
   {

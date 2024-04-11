@@ -1,0 +1,29 @@
+.header--dashboard {
+    display: flex;
+    gap: 60.5em;
+
+    .profile {
+        display: flex;
+        gap: 1em;
+
+        span {
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: .5em;
+        }
+
+        p {
+            font-size: 12px;
+            margin-left: -1em;
+        }
+
+        img {
+            background-color: $color-four;
+            width: 2em;
+            height: 2em;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-top: .2em;
+        }
+    }
+}
