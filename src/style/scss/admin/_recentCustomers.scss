@@ -1,30 +1,34 @@
-$color-051923: #051923;
-$color-f6f4ee: #f6f4ee;
-$color-baff29: #baff29;
+$table-bg-color: #15191E;
+$thead-bg-color: #baff29;
+$th-color: #ffffff;
+$td-color: #ffffff;
 
-.table {
-  border-collapse: collapse;
+table {
+  background-color: $table-bg-color;
   width: 100%;
+  border-collapse: collapse;
+  margin-top: -8.7em;
 
-  th,
-  td {
-    border: 1px solid $color-baff29;
-    padding: 8px;
-    text-align: left;
+  thead {
+    background-color: $thead-bg-color;
+    color: $th-color;
+
+    th {
+      padding: 10px;
+      text-align: left;
+    }
   }
 
-  th {
-    background-color: $color-051923;
-    color: $color-f6f4ee;
-    font-weight: bold;
-  }
+  tbody {
+    tr {
+      &:nth-child(even) {
+        background-color: lighten($table-bg-color, 5%);
+      }
 
-  tr:nth-child(even) {
-    background-color: $color-f6f4ee;
-  }
-
-  tr:hover {
-    background-color: $color-baff29;
-    color: $color-051923;
+      td {
+        padding: 10px;
+        color: $td-color;
+      }
+    }
   }
 }

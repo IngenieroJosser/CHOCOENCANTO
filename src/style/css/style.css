@@ -17,7 +17,7 @@ body {
   background-color: #f2f2f2;
 }
 
-h1, h2, h3, h4, h5, h6, a, span, p, a, strong {
+h1, h2, h3, h4, h5, h6, a, span, p, a, strong, td, th {
   font-family: "text";
   color: #000000;
 }
@@ -671,6 +671,11 @@ aside img:hover {
   position: absolute;
   top: 43%;
   left: 5.5%;
+  display: inline-block;
+  animation-name: waveAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 .container--admin .data-analytics-grafic {
   margin: 15em 63em;
@@ -703,6 +708,38 @@ aside img:hover {
   to {
     transform: rotate(360deg);
   }
+}
+@keyframes waveAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+table {
+  background-color: #15191E;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: -8.7em;
+}
+table thead {
+  background-color: #baff29;
+  color: #ffffff;
+}
+table thead th {
+  padding: 10px;
+  text-align: left;
+}
+table tbody tr:nth-child(even) {
+  background-color: #20262d;
+}
+table tbody tr td {
+  padding: 10px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

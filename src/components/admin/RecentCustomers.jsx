@@ -36,20 +36,29 @@ const RecentCustomers = () => {
         details: 'San Francisco',
         registered: 'Yes',
         },
+
+        {
+        name: 'Josser Cordoba',
+        orderDate: '23 Apr, 2023:15PM',
+        phoneNumber: '323-284-2193',
+        location: 'Quibdó - Choco - Colombia',
+        details: 'Poblado - Flores de Buenaños',
+        registered: 'Yes',
+        }
     ];
 
     return (
             <table>
-            <thead>
-                <tr>
-                <th>Name</th>
-                <th>Order Date</th>
-                <th>Phone Number</th>
-                <th>Location</th>
-                <th>Registered</th>
-                <th>Details</th>
-                </tr>
-            </thead>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Fecha de Pedido</th>
+                        <th>Numero de telefono</th>
+                        <th>Ubicación</th>
+                        <th>Inscrito</th>
+                        <th>Detalles</th>
+                    </tr>
+                </thead>
                 <tbody>
                     {customers.map((customer, index) => (
                         <tr key={index}>

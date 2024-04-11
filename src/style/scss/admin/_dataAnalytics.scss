@@ -122,6 +122,11 @@
                 position: absolute;
                 top: 43%;
                 left: 5.5%;
+                display: inline-block;
+                animation-name: waveAnimation;
+                animation-duration: 1s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
             }
         }
     }
@@ -160,5 +165,17 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
