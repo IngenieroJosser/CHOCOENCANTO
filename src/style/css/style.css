@@ -572,4 +572,51 @@ aside img:hover {
   filter: drop-shadow(20px 10px 20px #07190f);
 }
 
+.container--admin {
+  display: flex;
+  z-index: -1;
+}
+.container--admin .data-analytics .banner--admin {
+  display: flex;
+  gap: 5.14em;
+  position: absolute;
+  margin: 7em 10em;
+}
+.container--admin .data-analytics .banner--admin .content--admin {
+  background-color: #15191E;
+  width: 210px;
+  height: 117px;
+  border-radius: 7px;
+}
+.container--admin .data-analytics .banner-content {
+  background-color: #15191E;
+  width: 787px;
+  height: 366px;
+  border-radius: 7px;
+  position: absolute;
+  margin: 15em 10.2em;
+}
+.container--admin .data-analytics .banner-content img {
+  position: absolute;
+  top: 32%;
+  left: 5.5%;
+}
+.container--admin .data-analytics-grafic {
+  margin: 15em 63em;
+  background-color: #15191E;
+  border-radius: 10px;
+}
+.container--admin .data-analytics-grafic svg {
+  animation: spin 7s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

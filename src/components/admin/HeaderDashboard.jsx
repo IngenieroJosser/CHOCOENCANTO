@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import user from '../../assets/img/photo--user.png'
+import '../../style/scss/admin/_headerAnalytics.scss'
 
 const HeaderDashboard = () => {
     return (

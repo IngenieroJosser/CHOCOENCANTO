@@ -1,0 +1,67 @@
+@import '../settings/variables';
+
+.container--admin {
+    display: flex;
+    z-index: -1;
+
+    .data-analytics {
+        // .data {
+        //     position: absolute;
+        //     left: 30%;
+        //     top: 10%;
+        //     width: 40%;
+        //     height: 80%;
+        //     border-radius: 11px;
+        //     object-fit: cover;
+        // }
+    
+    
+        .banner--admin {
+            display: flex;
+            gap: 5.14em;
+            position: absolute;
+            margin: 7em 10em;
+    
+            .content--admin {
+                background-color: $color-four;
+                width: 210px;
+                height: 117px;
+                border-radius: 7px;
+            }
+        }
+    
+        .banner-content {
+            background-color: $color-four;
+            width: 787px;
+            height: 366px;
+            border-radius: 7px;
+            position: absolute;
+            margin: 15em 10.2em;
+    
+            img {
+                position: absolute;
+                top: 32%;
+                left: 5.5%;
+            }
+        }
+    }
+
+    .data-analytics-grafic {
+        margin: 15em 63em;
+        background-color: $color-four;
+        border-radius: 10px;
+        
+        svg {
+            animation: spin 7s linear infinite;
+        }
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
