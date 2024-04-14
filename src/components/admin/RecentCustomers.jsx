@@ -41,7 +41,7 @@ const RecentCustomers = () => {
         name: 'Josser Cordoba',
         orderDate: '23 Apr, 2023:15PM',
         phoneNumber: '323-284-2193',
-        location: 'Quibdó - Choco - Colombia',
+        location: 'Quibdó - Chocó - Colombia',
         details: 'Poblado - Flores de Buenaños',
         registered: 'Yes',
         }
