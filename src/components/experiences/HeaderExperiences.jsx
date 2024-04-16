@@ -8,7 +8,6 @@ const HeaderExperiences = () => {
             <NavLink to='/'><h4>@ChocóEncanto</h4></NavLink>
 
             <nav className='nav-experiences'>
-                <NavLink className='e-link' to="#">Servicios</NavLink>
                 <NavLink className='e-link' to="/Reservas" exact>Reservas</NavLink>
             </nav>
         </div>

@@ -4,6 +4,7 @@ import SomePlaces from "../components/SomePlaces"
 import Services from "../components/Services"
 import UserSay from "../components/UserSay"
 import Footer from "../components/Footer"
+// import LiveChatButton from "../components/costumerService/LiveChatButton "
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Services />
             <UserSay />
             <Footer />
+            {/* <LiveChatButton /> */}
         </>
     )
 }
